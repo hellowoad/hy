@@ -16,6 +16,14 @@ struct RegPara
     uint8_t permisss;
 };
 
+struct RegParaAlarm
+{
+    struct RegPara alarm;
+    struct RegPara restore;
+    uint16_t delay;
+};
+
+
 struct RegData
 {
     uint16_t addr;
