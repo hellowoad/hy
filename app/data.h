@@ -16,11 +16,11 @@ struct RegPara
     uint8_t permisss;
 };
 
-struct RegParaAlarm
+struct ParaAlarm
 {
     struct RegPara alarm;
     struct RegPara restore;
-    uint16_t delay;
+    struct RegPara delay;
 };
 
 
